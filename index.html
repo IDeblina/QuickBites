@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- side bar -->
+
+    <div class="sidebar">
+        <!-- logo -->
+        <h1 class="logo">QuickBites</h1>
+
+        <!-- list of menus -->
+
+        <diV class="sidebar-menu">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>wallet</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Setting</a>
+        </diV>
+
+        <!-- log out -->
+        <div class="sidebar-logout">
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon>Log Out</a>
+        </div>
+
+    </div>
+
+    <!-- main  -->
+     <div class="main">
+        <!-- main nav bar -->
+          <div class="main-navbar">
+
+            <!--menu  when the app is running on mobile -->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+
+            <!-- searchbar -->
+             <div class="search">
+                <input type="text" placeholder="what are you are craving for?">
+                <button class="search-btn">Search</button>
+             </div>
+
+            <!-- profile icon on the left -->
+             <div class="profile">
+                <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+             </div>
+
+          </div>
+
+        <!-- best recommendations -->
+
+        <div class="main-highlight">
+            <!-- title section and arrows -->
+             <div class="main-header">
+                <h2 class="main-title">Best Recommendations</h2>
+                <div class="main-arrow">
+                   <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                   <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon> 
+                </div>
+             </div>
+            <!-- highlight menu -->
+            <div class="highlight-wrapper">
+                <div class="hightlight-card">
+                    <img class="hightlight-img" src="https://t3.ftcdn.net/jpg/01/96/80/24/360_F_196802485_VQxk0qmyPGTq56rKYXGikVGApD3A7v5T.jpg">
+                    <div class="highlight-description">
+                        <h4>Biriyani</h4>
+                        <p><b>@ 199/-</b></p>
+                    </div>
+                </div>
+                <div class="hightlight-card">
+                    <img class="hightlight-img" src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg">
+                    <div class="highlight-description">
+                        <h4>Pizza</h4>
+                        <p><b>@ 299/-</b></p>
+                    </div>
+                </div>
+                <div class="hightlight-card">
+                    <img class="hightlight-img" src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVyZ2Vyc3xlbnwwfHwwfHx8MA%3D%3D">
+                    <div class="highlight-description">
+                        <h4>Burger</h4>
+                        <p><b>@ 99/-</b></p>
+                    </div>
+                </div>
+                <div class="hightlight-card">
+                    <img class="hightlight-img" src="https://media.istockphoto.com/id/1292635321/photo/veg-steam-momo-nepalese-traditional-dish-momo-stuffed-with-vegetables-and-then-cooked-and.jpg?s=612x612&w=0&k=20&c=NyxQvDnBq7Ki09Zi21JEMxpuZ_uVr45ZBSavqXJ2T1s=">
+                    <div class="highlight-description">
+                        <h4>Momos</h4>
+                        <p><b>@149/-</b></p>
+                    </div>
+                </div>
+                <div class="hightlight-card">
+                    <img class="hightlight-img" src="https://myfoodstory.com/wp-content/uploads/2020/10/Dhaba-Style-Chicken-Curry-1.jpg">
+                    <div class="highlight-description">
+                        <h4>Chicken</h4>
+                        <p><b>@199/-</b></p>
+                    </div>
+                </div>
+                <div class="hightlight-card">
+                    <img class="hightlight-img" src="https://img.freepik.com/free-photo/top-view-delicious-noodles-concept_23-2148773775.jpg">
+                    <div class="highlight-description">
+                        <h4>Noddles</h4>
+                        <p><b>@199/-</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main menu list -->
+         <div class="main-menus">
+            <!-- filter section -->
+             <div class="main-filter">
+                <div>
+                    <h2 class="main-title">Menu <br>Catagory</h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back-menu" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="next-menu" name="chevron-forward-circle-outline"></ion-icon> 
+                    </div>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p>All menus</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fast-food-outline"></ion-icon>
+                        </div>
+                        <p>Burger</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="pizza-outline"></ion-icon>
+                        </div>
+                        <p>pizza</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="wine-outline"></ion-icon>
+                        </div>
+                        <p>Wine</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="ice-cream-outline"></ion-icon>
+                        </div>
+                        <p>Ice Cream</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="cafe-outline"></ion-icon>
+                        </div>
+                        <p>Coffee</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="fish-outline"></ion-icon>
+                        </div>
+                        <p>Seafood</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="nutrition-outline"></ion-icon>
+                        </div>
+                        <p>Healthy</p>
+                    </div>
+                </div>
+             </div>
+            <!-- divider-->
+            <hr class="divider">
+            <!-- list of foods -->
+            <div class="main-details">
+                <h2 class="main-title">Choose Order</h2>
+                <div class="detail-wrapper">
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4=">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Biriyani</h4>
+                                <p class="detail-sub">A flavorful, layered rice dish  with a delicate flavor and rich fragrance</p>
+                                <p class="price">@299/-</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>    
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Burger</h4>
+                                <p class="detail-sub">A signature flame-grilled beef patty topped with a simple layer of crinkle cut pickles, yellow mustard, and ketchup on a toasted sesame bun.</p>
+                                <p class="price">@199/-</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                        
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="https://media.gettyimages.com/id/157472912/photo/ice-cream-composition-on-a-bowl.jpg?s=612x612&w=gi&k=20&c=AniWX1OhaarUxCkgjUoKiA3bKVllK0upCylW6Z0PCMQ=">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Ice-Cream</h4>
+                                <p class="detail-sub">A frozen dessert typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit, such as strawberries or peaches.</p>
+                                <p class="price">Starting @99/-</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+
+     </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
